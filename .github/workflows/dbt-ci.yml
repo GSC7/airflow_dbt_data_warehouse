@@ -39,6 +39,7 @@ jobs:
                 schema: public
           EOF
 
+
       - name: dbt deps
         working-directory: jornada_dw
         run: dbt deps --profiles-dir ~/.dbt
